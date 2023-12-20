@@ -11,3 +11,6 @@ df["Gross"] = df["Gross"].str.replace(",", "").astype(float)
 
 #Load 
 df.to_csv("imdb_top_1000_clean.csv")
+
+
+
